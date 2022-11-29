@@ -35,8 +35,8 @@ Important note: **details are important!** lowercase vs uppercase / wrong letter
 
 ## Sitemap of the project
 
-![sitemap](/sitemap.png)
+![sitemap](sitemap.png)
 
 Wireframe of ```Techium``` project
 
-![wireframe](/wireframe.png)
+![wireframe](wireframe.png)
