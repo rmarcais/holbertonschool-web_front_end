@@ -384,7 +384,7 @@
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
-    --nav-item-maring: 0 0 3rem;
+    --nav-item-margin: 0 0 3rem;
     --nav-item-link-hover: var(--color-white);
     --section-tagline-margin: 0;
     --button-display: inline-block;
@@ -498,7 +498,7 @@ a:active {
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
-    margin: var(--nav-item-maring);
+    margin: var(--nav-item-margin);
 }
 
 .nav .nav-link {
@@ -508,6 +508,21 @@ a:active {
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
+}
+
+.nav .nav-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 0;
+  height: 0.2rem;
+}
+
+.nav .nav-item:hover .nav-link::before {
+  background-color: var(--color-primary);
+  width: 100%;
 }
 
 .visually-hidden {
