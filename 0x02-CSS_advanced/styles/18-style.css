@@ -385,7 +385,7 @@
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-maring: 0 0 3rem;
-    /*--nav-item-link-hover: var(--color-primary);*/
+    --nav-item-link-hover: var(--color-primary);
 }
 
 *, *:before, *:after {
@@ -453,9 +453,9 @@ a:active {
   padding: 0.5rem 1rem;
 }
 
-.nav .nav-link:hover {
+/*.nav .nav-link:hover {
   color: var(--nav-item-link-hover);
-}
+}*/
 
 .visually-hidden {
     display: none;
