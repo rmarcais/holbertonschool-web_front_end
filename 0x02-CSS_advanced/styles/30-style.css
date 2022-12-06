@@ -574,7 +574,7 @@ a:active {
   height: 30rem;
   width: 100%;
   object-fit: cover;
-  top: 0;
+  bottom: 0;
 }
 
 .card-work .card-inner {
@@ -597,13 +597,13 @@ a:active {
   position: relative;
 }
 
-.card-work .card-title a {
+.card-work .card-title > a {
   display: block;
   text-decoration: none;
   padding-top: 45%;
 }
 
-.card-work .card-title a::after {
+.card-work .card-title > a::after {
   position: absolute;
   left: 0;
   right: 0;
