@@ -1,0 +1,42 @@
+/* Sorts the variable $list_to_sort and prints the sorted list in the debug output */
+@import "103-sort_list";
+
+$sort-order: a b c d e f g h i j k l m n o p q r s t u v w x y z !default;
+
+@function strcmp($str-a, $str-b, $sort-order) {
+    $str-a: to-lower-case($string: $str-a);
+    $str-b: to-lower-case($string: $str-b);
+
+    @for $i from 1 through min(str-length($str-a), str-length($str-b)) {
+        $chr-a: str-slice($str-a, $i, $i);
+        $chr-b: str-slice($str-b, $i, $i);
+
+        @if $chr-a and $chr-b and index($sort-order, $chr-a) != index($sort-order, $chr-b) {
+            @return index($sort-order, $chr-a) < index($sort-order, $chr-b);
+        }
+    }
+    @return str-length($str-a) < str-length($str-b);
+}
+
+@function swap($list, $index-a, $index-b) {
+    @if ($index-a) > length($list) or ($index-b) > length($list) {
+        @return $list;
+    }
+    $tmp: nth($list, $index-a);
+    $list: set-nth($list, $index-a , nth($list, $index-b));
+    $list: set-nth($list, $index-b , $tmp);
+    @return $list;
+}
+
+@function sort($list) {
+    @for $i from 1 through length($list) {
+        @for $j from 1 through length($list) - $i {
+            @if $j > 0 and strcmp(nth($list, $j + 1), nth($list, $j), $sort-order) {
+                $list: swap($list, $j, $j + 1);
+            }
+        }
+    }
+    @return $list;
+}
+
+@debug sort($list_to_sort);
