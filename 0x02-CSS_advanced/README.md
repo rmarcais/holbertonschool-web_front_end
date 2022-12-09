@@ -1,6 +1,6 @@
 # 0x02. Advanced CSS
 
-![meme](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2019/12/ce6718f1b55e6c1580c6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20221209%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20221209T114129Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=33e38674ae1e0113ef902662080066a95c5a2b9c06c167a3d318cc2014b03c32)
+![meme](./meme.jpg)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, **without the help of Google**:
@@ -28,15 +28,15 @@ At the end of this project, you are expected to be able to explain to anyone, **
 
 ### Files you need for the project
 ```favicon.jpg```
-![img0](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2019/10/2ba3a0d7878316de5aaa.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20221209%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20221209T114129Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2f00d576c301257d010ca56972c9a4ee86de9b696a063193ff691a13afaecd15)
+![img0](./images/favicon.jpg)
 
 ```logo-black.png```
 
-![img1](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2019/10/06f32e89f2a82582234e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20221209%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20221209T114129Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c1e561a48eed6e5b5fea2d4238fb9b42c07aca197f7cef7943b2096cab4519c8)
+![img1](./images/logo-black.png)
 
 ```logo-white.png```
 
-![img2](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2019/10/0fa48a04048a2d050cab.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20221209%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20221209T114129Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=6e1fa663e9ce286a158b85a2e5ff36662323f2879fa2bd1ad7c715a1efe79d3f)
+![img2](./images/logo-white.png)
 
 Store all these under a directory named “images”
 
@@ -405,6 +405,6 @@ You can save it in a ```index.html``` file and replace the ```<link rel='stylesh
 
 ## End goal of the project
 
-![endgoal](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2019/10/b9a220ba79af9ede6fc5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20221209%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20221209T114129Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d356c8167e2efae735df1d8de986cf5c9a926db3f4a4e27e0ea4f939c4fe9ef0)
+![endgoal](./end_goal.png)
 
 Important note: **details are important!** lowercase vs uppercase / wrong letter… be careful!
