@@ -1,0 +1,50 @@
+/* Timemachine boxes ! */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.box {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    background-color: #25cf6f;
+    width: 4rem;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+.box2 {
+    background-color: #2b98e2;
+    width: 7rem;
+    height: 5rem;
+    font-size: 2rem;
+}
+
+.box3 {
+    background-color: #344a61;
+    width: 12rem;
+    height: 7.5rem;
+    font-size: 4.3rem;
+}
+
+.box4 {
+    background-color: #9d57b1;
+    width: 7rem;
+    height: 5rem;
+    font-size: 2rem;
+}
+
+.box5 {
+    background-color: #ea7d04;
+    width: 4rem;
+    height: 3rem;
+    font-size: 1rem;
+}
