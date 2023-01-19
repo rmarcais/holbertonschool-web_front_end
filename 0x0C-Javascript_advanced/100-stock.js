@@ -19,6 +19,7 @@ function processOrder(itemName, callbackPayment, callbackError) {
     }
 }
 
+// Always displays the prompt until the program is exited.
 while (true) {
     let item = prompt("Please enter the item you would like to purchase (Macbook, iPhone)").toLocaleLowerCase();
 
