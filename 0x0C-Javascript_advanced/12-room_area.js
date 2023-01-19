@@ -6,6 +6,6 @@ let roomDimensions = {
     }
 };
 
-let boundGetArea = roomDimensions.getArea.bind(roomDimensions);
+const boundGetArea = roomDimensions.getArea.bind(roomDimensions);
 // Print the result to test
 console.log(boundGetArea());

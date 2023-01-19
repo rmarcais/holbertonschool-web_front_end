@@ -9,32 +9,32 @@ function changeMode(size, weight, transform, background, color) {
 }
 
 function main() {
-    let spooky = changeMode(9, "bold", "uppercase", "pink", "green");
-    let darkMode = changeMode(12, "bold", "capitalize", "black", "white");
-    let screamMode = changeMode(12, "normal", "lowercase", "white", "black");
+    const spooky = changeMode(9, "bold", "uppercase", "pink", "green");
+    const darkMode = changeMode(12, "bold", "capitalize", "black", "white");
+    const screamMode = changeMode(12, "normal", "lowercase", "white", "black");
 
-    let para = document.createElement("p");
-    let text = document.createTextNode("Welcome Holberton!");
+    const para = document.createElement("p");
+    const text = document.createTextNode("Welcome Holberton!");
     para.appendChild(text);
     document.body.appendChild(para);
     
-    let spanSpooky = document.createElement('span');
+    const spanSpooky = document.createElement('span');
     spanSpooky.innerHTML = "Spooky";
-    let button1 = document.createElement("button");
+    const button1 = document.createElement("button");
     button1.addEventListener("click", function (event) { spooky(); });
     button1.appendChild(spanSpooky);
     document.body.appendChild(button1);
 
-    let spanDark = document.createElement('span');
+    const spanDark = document.createElement('span');
     spanDark.innerHTML = "Dark mode";
-    let button2 = document.createElement("button");
+    const button2 = document.createElement("button");
     button2.addEventListener("click", function (event) { darkMode(); });
     button2.appendChild(spanDark);
     document.body.appendChild(button2);
 
-    let spanScream = document.createElement('span');
+    const spanScream = document.createElement('span');
     spanScream.innerHTML = "Scream mode";
-    let button3 = document.createElement("button");
+    const button3 = document.createElement("button");
     button3.addEventListener("click", function (event) { screamMode(); });
     button3.appendChild(spanScream);
     document.body.appendChild(button3);

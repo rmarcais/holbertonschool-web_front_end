@@ -1,6 +1,6 @@
 function createElement(data) {
-    let para = document.createElement("p");
-    let text = document.createTextNode(data);
+    const para = document.createElement("p");
+    const text = document.createTextNode(data);
     para.appendChild(text);
     document.body.appendChild(para);
 }

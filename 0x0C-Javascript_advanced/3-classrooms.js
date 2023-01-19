@@ -11,4 +11,4 @@ function createClassRoom(numbersOfStudents) {
     return students
 }
 
-let classRoom = createClassRoom(10);
+const classRoom = createClassRoom(10);
