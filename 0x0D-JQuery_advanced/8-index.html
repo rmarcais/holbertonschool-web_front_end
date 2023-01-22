@@ -46,9 +46,12 @@
 
                 function buildPagination(numberOfItems, itemsPerPage, currentOffset) {
                     $("#pagination").empty();
-                    for (let i = 1; i <= (numberOfItems / itemsPerPage) + 1; i++) {
+                    if (numberOfItems > 0) {
+                       for (let i = 1; i <= (numberOfItems / itemsPerPage) + 1; i++) {
                         $("#pagination").append(`<li>${i}</li>`);
+                        } 
                     }
+                    
                     $("#pagination li").css({"cursor": "pointer", "margin-left": "10px"});
                     $(`#pagination li:nth-of-type(${(currentOffset + 1)})`).css("font-weight", "bold");
                     $("#pagination li").click(function () {
