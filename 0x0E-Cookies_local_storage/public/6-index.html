@@ -32,7 +32,7 @@
                     document.body.appendChild(uList);
                 }
                 function displayCart() {
-                    if (sessionStorage.length > 1) {
+                    if (sessionStorage.length > 0) {
                         const para = document.createElement("p");
                         const text = document.createTextNode(`You previously had ${sessionStorage.length} items in your cart`);
                         para.appendChild(text);
